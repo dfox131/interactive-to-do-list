@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+#todo-app {
+    margin: 20px auto;
+    max-width: 400px;
+}
+#todo-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#add-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* makes the mouse arrow turn into a finger clicking when hovering over the add button */
+}
+#todo-list {
+    list-style: none; /* removes bullet points on the list */
+    padding: 0;
+    margin: 20px 0;
+}
+#todo-list li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; /* has task to the left with delete button to the right with as much space as possible between*/
+}
+#todo-list li button { /* delete button */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px; /* makes button have rounded edges */
+    cursor: pointer;
+}
